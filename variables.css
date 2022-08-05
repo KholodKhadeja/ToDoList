@@ -1,0 +1,26 @@
+
+:root{
+    /*colors*/
+    --dark-gray:#212529;
+    --mid-gray:#495057;
+    --light-gray:#868e96;
+    --basic-pink:#f783ac;
+    --basic-purple:#cc5de8;
+    --basic-text:#f8f9fa;
+    --deep-white:#f1f3f5;
+/*sizes*/
+    --basic-font:16px;
+    --bg-basic-font:20px;
+    --icon-size:18px;
+    --bg-icon-size:22px;
+    --basic-titles:24px;
+    --bg-basic-titles:30px;
+    --btn-txt:12px;
+    --bg-btn-txt:16px;
+/*margins and paddings*/
+/*Media query measurements*/
+    --desktop:1200px;
+    --laptop:1024px;
+    --tablet:768px;
+    --mobile:480px;
+}

@@ -1,0 +1,269 @@
+@import 'variables.css';
+
+/********************************************************************************************/
+@media screen and (max-width:480px) {
+    .mainContainer{
+       margin-left: auto;margin-right: auto;
+       width: 80%;
+       border-radius: 10px;padding: 15px;
+   }
+   .iconUser{
+       width: 30px; height: 30px;
+       stroke: var(--basic-text);
+   }
+   .daytime{
+   width: 50%;margin-bottom: -5px;
+   }
+
+   .headingTitle{
+       font-size: var(--basic-titles);
+   }
+   .taskaddsection, .taskmainsection{
+   width: 100%;
+   margin-top: 0;height: auto;
+   
+   }
+   .taskaddsection:not(:last-child){
+   margin-bottom: 5px;
+   }
+   .newtask{
+       width: 100%;
+       border-radius: 10px;height: 30px;padding: 5px;
+       
+   }
+   .plus{
+   font-size: var(--icon-size);
+   }
+   .addtask{ 
+       width:90px;
+       margin-left: -90px;border-radius: 10px;
+       height: 30px;
+   }
+   
+   .btnCont{
+       width:90px;margin-left: -90px;border-radius: 10px;height: 30px;
+       gap:7px;
+   }
+
+   .btns{
+       font-size: var(--btn-txt);font-weight: 800;
+   }
+   .taskssection{
+       width: 95%;
+   }
+   #taskList{
+       margin-top: 0px;
+   }
+   .task1{
+       width: 95%;
+       border-radius: 10px;height: 30px;padding: 5px;
+       border: none;
+   }
+   #bottomsnackbar{
+       padding: 5px;
+       bottom: 0;left: 50%;
+       transform: translate(-50%);
+       border-radius: 5px;
+   }
+}
+
+
+/********************************************************************************************/
+@media screen and (min-width:500px) {
+   .mainContainer{
+      margin-left: auto;margin-right: auto;
+      width: 80%;
+      border-radius: 10px;padding: 15px;
+  }
+  .iconUser{
+      width: 40px; height: 40px;
+      stroke: var(--basic-text);
+  }
+  .daytime{
+  width: 50%;margin-bottom: -5px;font-size: var(--bg-basic-font);gap: 5px;width: 250px;
+  }
+
+  .headingTitle{
+      font-size: var(--bg-basic-titles);
+  }
+  .taskaddsection, .taskmainsection{
+  width: 100%;
+  margin-top: 0;height: auto;
+  
+  }
+  .taskaddsection:not(:last-child){
+  margin-bottom: 5px;
+  }
+  .newtask{
+      width: 100%;
+      border-radius: 10px;height: 40px;padding: 5px;
+      font-size: var(--bg-basic-font);
+  }
+  .plus{
+  font-size: var(--bg-icon-size);
+  }
+  .addtask{ 
+      width:100px;
+      margin-left: -90px;border-radius: 10px;
+      height: 40px;
+  }
+  .btnCont{
+      width:100px;margin-left: -90px;border-radius: 10px;height: 40px;
+      gap:8px;
+  }
+
+  .btns{
+      font-size: var(--bg-btn-txt);font-weight: 900;
+  }
+  .taskssection{
+      width: 95%;
+  }
+  #taskList{
+      margin-top: 0px;
+  }
+  .task1{
+      width: 95%;
+      border-radius: 10px;height: 40px;padding: 5px;
+      border: none;
+  }
+  #bottomsnackbar{
+      padding: 5px;
+      bottom: 0;left: 50%;
+      transform: translate(-50%);
+      border-radius: 5px;
+  }
+  .title{
+      font-size: var(--bg-basic-font);
+  }
+}
+
+/****************************************************************************************************/
+body{
+    background-color: var(--mid-gray);
+    color: var(--basic-text);    
+    font-family: Nunito,sans-serif;
+    position: relative;
+}
+.gradientClr{
+    background-image:linear-gradient(90deg, var(--basic-purple),var(--basic-pink));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.elementsGradient{
+    background-image:linear-gradient(90deg, var(--basic-purple),var(--basic-pink));
+}
+ .mainContainer{
+    margin-left: auto;margin-right: auto;
+    background-color: var(--dark-gray);
+    width: 80%;
+    border-radius: 10px;padding: 15px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.iconUser{
+    stroke: var(--basic-text);
+}
+.daytime{
+display: flex;justify-content: space-between;
+align-items: center;margin-bottom: -5px;
+}
+.headingTitle{
+    font-size: var(--basic-titles);
+}
+.title{
+    margin-bottom: 0px !important;
+}
+.taskaddsection, .taskmainsection{
+width: 100%;display: flex;align-items: center;margin-top: 0;height: auto;
+
+}
+.taskaddsection:not(:last-child){
+margin-bottom: 5px;
+}
+.flex-col{
+    display: flex;flex-direction: column;
+}
+.newtask{
+    width: 100%;
+    border-radius: 10px;padding: 5px;
+    background-color:var(--mid-gray) !important;color: var(--light-gray);  border: none !important;
+}
+.newtask:focus{
+    outline: 0;
+}
+.newtask:active{
+    border: none;
+}
+.plus{
+font-size: var(--icon-size);
+}
+.plus:active{
+    transform: translateY(1px);
+}
+.delete{
+color: red;
+}
+.addtask{ 
+    border: none;margin-left: -90px;border-radius: 10px;
+    border-top-left-radius: 0 !important;border-bottom-left-radius: 0 !important;
+    border: none;
+    display: flex;justify-content: center;align-items: center;
+}
+
+.btnCont{
+    border: none;margin-left: -90px;border-radius: 10px;
+    border-top-left-radius: 0;border-bottom-left-radius: 0;
+    border: none;
+    display: flex;justify-content: center;
+    gap:7px;
+    align-items: center;
+}
+.linearBg{
+    background-image: linear-gradient(20deg,var(--deep-white), var(--basic-text));
+}
+.btns{
+    border: none;display: flex;align-items: center;justify-content: center;font-size: var(--btn-txt);font-weight: 800;
+}
+.btns:active{
+    transform: translateY(1px);
+}
+.taskssection{
+    width: 95%;
+    display: flex;align-items: center;
+}
+#taskList{
+    margin-top: 0px;
+    display: flex;flex-direction: column;
+}
+.task1{
+    border-radius: 10px;padding: 5px;
+    background-color:var(--mid-gray) !important;
+    color: var(--light-gray);  
+    border: none;
+}
+
+#highlight{
+    border: 2px solid red;
+}
+
+#bottomsnackbar{
+    width: fit-content;
+    padding: 5px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;left: 50%;
+    transform: translate(-50%);
+    background-color: black;color: white;
+    border-radius: 5px;
+    display: none;
+}
+.line-mid{
+    text-decoration-line: line-through;
+    font-style: italic;
+}
+.hidden{
+    display: none;
+}
